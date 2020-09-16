@@ -13,7 +13,7 @@ UserImg varchar(250)) ;
 CREATE TABLE Activity
 (
 ActivityID int Primary key auto_increment,
-ActivityVerify char(10) not null DEFAULT 'å¾…å®¡æ ¸',
+ActivityVerify char(10) not null DEFAULT '´ýÉóºË',
 ActivityName varchar(125) not null,
 Endtime datetime(6) not null,
 ActivityPicture varchar(250) not null,
